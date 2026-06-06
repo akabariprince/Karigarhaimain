@@ -1,29 +1,30 @@
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
+import { Link } from 'react-router';
 
 export function Footer() {
   const productLinks = [
-    'How it works',
-    'For Karigar',
-    'For Malik',
-    'Pricing',
-    'Download app',
-    'Post a job',
+    { label: 'How it works', href: '/#how-it-works' },
+    { label: 'For Karigar', href: '/' },
+    { label: 'For Malik', href: '/' },
+    { label: 'Pricing', href: '/#pricing' },
+    { label: 'Download app', href: '/' },
+    { label: 'Post a job', href: '/' },
   ];
 
   const companyLinks = [
-    'About us',
-    'Blog',
-    'Careers',
-    'Press kit',
-    'Contact us',
+    { label: 'About us', href: '/about-us' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Careers', href: '/careers' },
+    { label: 'Press kit', href: '/press-kit' },
+    { label: 'Contact us', href: '/contact-us' },
   ];
 
   const supportLinks = [
-    'Help center',
-    'Safety & trust',
-    'Terms of service',
-    'Privacy policy',
-    'Refund policy',
+    { label: 'Help center', href: '/help-center' },
+    { label: 'Safety & trust', href: '/safety-trust' },
+    { label: 'Terms of service', href: '/terms-of-service' },
+    { label: 'Privacy policy', href: '/privacy-policy' },
+    { label: 'Refund policy', href: '/refund-policy' },
   ];
 
   return (
@@ -31,21 +32,23 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div style={{ width: '38px', height: '38px', background: 'linear-gradient(135deg, #E85D26, #FF7A42)', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 14px rgba(232,93,38,0.35)' }}>
-                <span style={{ color: 'white', fontSize: '18px', fontWeight: 800, fontFamily: 'Google Sans Flex, sans-serif' }}>K</span>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <div className="flex items-center gap-2 mb-4">
+                <div style={{ width: '38px', height: '38px', background: 'linear-gradient(135deg, #E85D26, #FF7A42)', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ color: 'white', fontSize: '18px', fontWeight: 800, fontFamily: 'Google Sans Flex, sans-serif' }}>K</span>
+                </div>
+                <span style={{ fontSize: '18px', fontWeight: 700, fontFamily: 'Google Sans Flex, sans-serif' }}>KarigarHai</span>
               </div>
-              <span style={{ fontSize: '18px', fontWeight: 700, fontFamily: 'Google Sans Flex, sans-serif' }}>KarigarHai</span>
-            </div>
+            </Link>
             <p className="text-lg mb-2" style={{ fontWeight: 600 }}>Har Kaam Ka Karigar</p>
             <p className="text-gray-400 text-sm mb-6">
               India's most trusted platform for skilled local workers. Verified. Rated. Local.
             </p>
             <div className="flex gap-3 mb-6">
               {[{ Icon: Instagram }, { Icon: Facebook }, { Icon: Twitter }, { Icon: Linkedin }, { Icon: Youtube }].map(({ Icon }, i) => (
-                <a key={i} href="#" style={{ width: '36px', height: '36px', background: 'rgba(255,255,255,0.08)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s', color: 'rgba(255,255,255,0.6)', border: '1px solid rgba(255,255,255,0.1)' }}
+                <a key={i} href="#" style={{ width: '36px', height: '36px', background: 'rgba(255,255,255,0.08)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,0.6)', border: '1px solid transparent', transition: 'all 0.3s' }}
                   onMouseEnter={e => { e.currentTarget.style.background = '#F5C400'; e.currentTarget.style.color = '#0F172A'; e.currentTarget.style.borderColor = '#F5C400'; }}
-                  onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; }}>
+                  onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.borderColor = 'transparent'; }}>
                   <Icon size={17} />
                 </a>
               ))}
@@ -60,10 +63,10 @@ export function Footer() {
             <h4 className="mb-4" style={{ fontWeight: 600 }}>Product</h4>
             <ul className="space-y-3">
               {productLinks.map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    {link}
-                  </a>
+                <li key={link.label}>
+                  <Link to={link.href} style={{ textDecoration: 'none' }} className="text-gray-400 hover:text-white transition-colors text-sm">
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -73,10 +76,10 @@ export function Footer() {
             <h4 className="mb-4" style={{ fontWeight: 600 }}>Company</h4>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    {link}
-                  </a>
+                <li key={link.label}>
+                  <Link to={link.href} style={{ textDecoration: 'none' }} className="text-gray-400 hover:text-white transition-colors text-sm">
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -86,10 +89,10 @@ export function Footer() {
             <h4 className="mb-4" style={{ fontWeight: 600 }}>Support</h4>
             <ul className="space-y-3">
               {supportLinks.map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    {link}
-                  </a>
+                <li key={link.label}>
+                  <Link to={link.href} style={{ textDecoration: 'none' }} className="text-gray-400 hover:text-white transition-colors text-sm">
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
