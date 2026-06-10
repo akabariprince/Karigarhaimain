@@ -44,11 +44,14 @@ export function Footer() {
             <p className="text-gray-400 text-sm mb-6">
               India's most trusted platform for skilled local workers. Verified. Rated. Local.
             </p>
+            <p className="text-gray-400 text-xs mb-4">
+              Developed by <span style={{ fontWeight: 600, color: '#F5C400' }}>Astitva Technologies</span>
+            </p>
             <div className="flex gap-3 mb-6">
               {[{ Icon: Instagram }, { Icon: Facebook }, { Icon: Twitter }, { Icon: Linkedin }, { Icon: Youtube }].map(({ Icon }, i) => (
-                <a key={i} href="#" style={{ width: '36px', height: '36px', background: 'rgba(255,255,255,0.08)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,0.6)', border: '1px solid transparent', transition: 'all 0.3s' }}
+                <a key={i} href="#" style={{ width: '36px', height: '36px', background: 'rgba(255,255,255,0.08)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,0.6)', border: 'transparent', transition: 'all 0.3s ease' }}
                   onMouseEnter={e => { e.currentTarget.style.background = '#F5C400'; e.currentTarget.style.color = '#0F172A'; e.currentTarget.style.borderColor = '#F5C400'; }}
-                  onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.borderColor = 'transparent'; }}>
+                  onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.borderColor = 'transparent'; }}
                   <Icon size={17} />
                 </a>
               ))}
@@ -125,9 +128,14 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-400 text-sm">
-            © 2025 KarigarHai. All rights reserved. · Ahmedabad, India
-          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            <p className="text-gray-400 text-sm">
+              © 2025 KarigarHai. All rights reserved. · Ahmedabad, India
+            </p>
+            <p className="text-gray-400 text-xs">
+              Product developed by <span style={{ fontWeight: 600, color: '#F5C400' }}>Astitva Technologies</span>
+            </p>
+          </div>
           <div className="flex gap-4">
             <button className="text-gray-400 hover:text-white text-sm">English</button>
             <button className="text-gray-400 hover:text-white text-sm">हिंदी</button>
