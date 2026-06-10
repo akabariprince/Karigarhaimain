@@ -12,14 +12,14 @@ const BORDER = 'rgba(0,0,0,0.08)';
 
 export default function PrivacyPolicy() {
   const sections = [
-    { title: '1. Information We Collect', content: 'We collect information you provide directly (name, phone, email, Aadhaar for verification) and information about your use of our platform (job history, ratings, messages, location data).' },
-    { title: '2. How We Use Your Information', content: 'We use your information to verify your identity, facilitate job connections, process payments, improve our services, and communicate with you about your account and jobs.' },
-    { title: '3. Data Security', content: 'We implement industry-standard security measures to protect your personal information. However, no method of transmission over the internet is 100% secure.' },
+    { title: '1. Information We Collect', content: 'We collect information you provide directly (name, phone, email, Aadhaar for verification) and information about your use of our platform (job history, ratings, preferences). This data is handled securely by Astitva Technologies.' },
+    { title: '2. How We Use Your Information', content: 'We use your information to verify your identity, facilitate job connections, process payments, improve our services, and communicate with you about your account and platform updates.' },
+    { title: '3. Data Security', content: 'We implement industry-standard security measures to protect your personal information. However, no method of transmission over the internet is 100% secure. Your data privacy is managed according to standards established by Astitva Technologies.' },
     { title: '4. Your Privacy Rights', content: 'You have the right to access, update, or delete your personal information. You can manage your privacy settings in your account dashboard.' },
     { title: '5. Third-Party Services', content: 'We may share your information with payment processors, verification partners, and other service providers necessary to operate the platform.' },
     { title: '6. Cookies & Tracking', content: 'We use cookies and similar technologies to enhance your experience. You can control cookie settings in your browser preferences.' },
     { title: '7. Children\'s Privacy', content: 'Our platform is not intended for users under 18. We do not knowingly collect personal information from minors.' },
-    { title: '8. Contact Us', content: 'If you have questions about our privacy practices, please contact us at privacy@karigarhaimain.com' },
+    { title: '8. Contact Us', content: 'If you have questions about our privacy practices or the development of this platform by Astitva Technologies, please contact us at privacy@karigarhaimain.com' },
   ];
 
   return (
@@ -32,6 +32,9 @@ export default function PrivacyPolicy() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <h1 style={{ fontSize: '48px', fontWeight: 800, marginBottom: '20px', lineHeight: 1.2 }}>Privacy Policy</h1>
             <p style={{ fontSize: '16px', color: MUTED, marginTop: '16px' }}>Last updated: June 2025</p>
+            <p style={{ fontSize: '14px', color: MUTED, marginTop: '12px' }}>
+              This service is developed and managed by <span style={{ fontWeight: 600, color: Y }}>Astitva Technologies</span>
+            </p>
           </motion.div>
         </div>
       </section>
@@ -40,7 +43,7 @@ export default function PrivacyPolicy() {
       <section style={{ padding: '80px 32px', background: BG }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
           {sections.map((section, i) => (
-            <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} viewport={{ once: true }} style={{ marginBottom: '40px', background: WHITE, borderRadius: '12px', border: `1px solid ${BORDER}`, padding: '32px' }}>
+            <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} viewport={{ once: true }} style={{ marginBottom: '40px', background: WHITE, padding: '24px', borderRadius: '8px', border: `1px solid ${BORDER}` }}>
               <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: '12px', color: '#92700A' }}>{section.title}</h2>
               <p style={{ color: MUTED, lineHeight: 1.8, fontSize: '15px' }}>{section.content}</p>
             </motion.div>
