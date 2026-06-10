@@ -12,11 +12,11 @@ const BORDER = 'rgba(0,0,0,0.08)';
 
 export default function TermsOfService() {
   const sections = [
-    { title: '1. Acceptance of Terms', content: 'By accessing and using KarigarHai, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.' },
-    { title: '2. User Accounts', content: 'You are responsible for maintaining the confidentiality of your account information. You agree to provide accurate information and to immediately notify us of any unauthorized use of your account.' },
-    { title: '3. User Conduct', content: 'You agree not to use the platform for any unlawful purposes or in any way that could damage or disable our services. This includes harassment, fraud, or any discriminatory behavior.' },
-    { title: '4. Payment Terms', content: 'All payments are held in secure escrow. As a Malik, you authorize us to hold funds until the job is completed. As a Karigar, you agree to complete jobs as described.' },
-    { title: '5. Verification & Safety', content: 'All Karigar must complete Aadhaar verification. We reserve the right to remove users who violate our safety guidelines or engage in fraudulent activity.' },
+    { title: '1. Acceptance of Terms', content: 'By accessing and using KarigarHai, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform. KarigarHai is developed by Astitva Technologies.' },
+    { title: '2. User Accounts', content: 'You are responsible for maintaining the confidentiality of your account information. You agree to provide accurate information and to immediately notify us of any unauthorized access or use of your account.' },
+    { title: '3. User Conduct', content: 'You agree not to use the platform for any unlawful purposes or in any way that could damage or disable our services. This includes harassment, fraud, or any illegal activities.' },
+    { title: '4. Payment Terms', content: 'All payments are held in secure escrow. As a Malik, you authorize us to hold funds until the job is completed. As a Karigar, you agree to complete jobs as agreed with the Malik.' },
+    { title: '5. Verification & Safety', content: 'All Karigar must complete Aadhaar verification. We reserve the right to remove users who violate our safety guidelines or engage in fraudulent activities. This platform is managed with security standards set by Astitva Technologies.' },
     { title: '6. Dispute Resolution', content: 'In case of disputes, both parties agree to work with our support team for resolution. We mediate disputes fairly and may withhold payment if work standards are not met.' },
     { title: '7. Limitation of Liability', content: 'KarigarHai is provided on an "as-is" basis. We are not liable for indirect or consequential damages arising from your use of the platform.' },
     { title: '8. Changes to Terms', content: 'We may update these terms at any time. Your continued use of the platform constitutes acceptance of updated terms.' },
@@ -32,6 +32,9 @@ export default function TermsOfService() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <h1 style={{ fontSize: '48px', fontWeight: 800, marginBottom: '20px', lineHeight: 1.2 }}>Terms of Service</h1>
             <p style={{ fontSize: '16px', color: MUTED, marginTop: '16px' }}>Last updated: June 2025</p>
+            <p style={{ fontSize: '14px', color: MUTED, marginTop: '12px' }}>
+              This service is developed and managed by <span style={{ fontWeight: 600, color: Y }}>Astitva Technologies</span>
+            </p>
           </motion.div>
         </div>
       </section>
@@ -40,7 +43,7 @@ export default function TermsOfService() {
       <section style={{ padding: '80px 32px', background: BG }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
           {sections.map((section, i) => (
-            <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} viewport={{ once: true }} style={{ marginBottom: '40px', background: WHITE, borderRadius: '12px', border: `1px solid ${BORDER}`, padding: '32px' }}>
+            <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} viewport={{ once: true }} style={{ marginBottom: '40px', background: WHITE, padding: '24px', borderRadius: '8px', border: `1px solid ${BORDER}` }}>
               <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: '12px', color: '#92700A' }}>{section.title}</h2>
               <p style={{ color: MUTED, lineHeight: 1.8, fontSize: '15px' }}>{section.content}</p>
             </motion.div>
