@@ -27,6 +27,9 @@ export default function ContactUs() {
             <p style={{ fontSize: '18px', color: MUTED, maxWidth: '600px', lineHeight: 1.6 }}>
               Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
             </p>
+            <p style={{ fontSize: '14px', color: MUTED, marginTop: '16px' }}>
+              This platform is developed by <span style={{ fontWeight: 600, color: Y }}>Astitva Technologies</span>
+            </p>
           </motion.div>
         </div>
       </section>
@@ -54,6 +57,10 @@ export default function ContactUs() {
                     </div>
                   ))}
                 </div>
+                <div style={{ marginTop: '32px', paddingTop: '24px', borderTop: `1px solid ${BORDER}` }}>
+                  <p style={{ fontSize: '12px', color: MUTED, marginBottom: '8px' }}>Platform developed by</p>
+                  <p style={{ fontSize: '16px', fontWeight: 700, color: Y }}>Astitva Technologies</p>
+                </div>
               </div>
             </motion.div>
 
@@ -63,10 +70,10 @@ export default function ContactUs() {
                 <h2 style={{ fontSize: '24px', fontWeight: 800, marginBottom: '28px' }}>Send us a Message</h2>
                 <form onSubmit={(e) => { e.preventDefault(); alert('Thank you for your message!'); }}
                   style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                  <input type="text" placeholder="Your Name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} style={{ padding: '12px 16px', borderRadius: '8px', border: `1.5px solid ${BORDER}`, fontSize: '14px', fontFamily: 'inherit' }} />
-                  <input type="email" placeholder="Your Email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} style={{ padding: '12px 16px', borderRadius: '8px', border: `1.5px solid ${BORDER}`, fontSize: '14px', fontFamily: 'inherit' }} />
-                  <textarea placeholder="Your Message" rows={5} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} style={{ padding: '12px 16px', borderRadius: '8px', border: `1.5px solid ${BORDER}`, fontSize: '14px', fontFamily: 'inherit', resize: 'vertical' }} />
-                  <button type="submit" style={{ padding: '12px 24px', borderRadius: '8px', background: Y, border: 'none', color: DARK, fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                  <input type="text" placeholder="Your Name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} style={{ padding: '12px 16px', borderRadius: '8px', border: `1px solid ${BORDER}`, fontFamily: 'inherit', fontSize: '14px' }} required />
+                  <input type="email" placeholder="Your Email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} style={{ padding: '12px 16px', borderRadius: '8px', border: `1px solid ${BORDER}`, fontFamily: 'inherit', fontSize: '14px' }} required />
+                  <textarea placeholder="Your Message" rows={5} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} style={{ padding: '12px 16px', borderRadius: '8px', border: `1px solid ${BORDER}`, fontFamily: 'inherit', fontSize: '14px', resize: 'vertical' }} required />
+                  <button type="submit" style={{ padding: '12px 24px', borderRadius: '8px', background: Y, border: 'none', color: DARK, fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
                     <Send size={16} /> Send Message
                   </button>
                 </form>
