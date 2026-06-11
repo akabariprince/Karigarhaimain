@@ -51,7 +51,7 @@ export function Footer() {
               {[{ Icon: Instagram }, { Icon: Facebook }, { Icon: Twitter }, { Icon: Linkedin }, { Icon: Youtube }].map(({ Icon }, i) => (
                 <a key={i} href="#" style={{ width: '36px', height: '36px', background: 'rgba(255,255,255,0.08)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,0.6)', border: 'transparent', transition: 'all 0.3s ease' }}
                   onMouseEnter={e => { e.currentTarget.style.background = '#F5C400'; e.currentTarget.style.color = '#0F172A'; e.currentTarget.style.borderColor = '#F5C400'; }}
-                  onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.borderColor = 'transparent'; }}
+                  onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.08)'; e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.borderColor = 'transparent'; }}>
                   <Icon size={17} />
                 </a>
               ))}
