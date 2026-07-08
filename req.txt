@@ -1,0 +1,900 @@
+# Landing Page - Complete Content Structure
+
+---
+
+# PAGES LIST
+
+1. Home Page
+2. How It Works Page
+3. Services Page
+4. For Providers Page
+5. About Us Page
+6. Trust and Safety Page
+7. Pricing Page
+8. Contact Page
+9. Blog Page
+10. FAQ Page
+11. Terms of Service Page
+12. Privacy Policy Page
+13. Cookie Policy Page
+
+---
+
+# PAGE 1: HOME PAGE
+
+---
+
+## Section 1: Navigation Bar
+- Logo and App Name
+- Menu Links: How It Works, Services, For Providers, About, Blog
+- Login Button
+- Download App Button (primary CTA)
+
+---
+
+## Section 2: Hero Section
+- Small tag line above heading: Your City. Your Service. Your Time.
+- Main Heading: Find Trusted Local Service Professionals in Minutes
+- Sub Heading: From painting to plumbing, electrical to cleaning. Post your requirement and get verified professionals at your doorstep. No calls. No hassle. Just results.
+- Two CTA Buttons:
+  - Post a Service (for customers)
+  - Join as Provider (for providers)
+- Small trust line below buttons: Verified Professionals Only · Secure Payments · Real Reviews
+- Hero Visual: Abstract illustration of service connection (no real user photos)
+
+---
+
+## Section 3: Numbers / Stats Bar
+- Note: Use aspirational or platform capability numbers, not real user data
+- 20+ Service Categories Available
+- 50 KM Smart Match Radius
+- 100% KYC Verified Providers
+- Secure Escrow Payments
+- Zero Hidden Charges
+
+---
+
+## Section 4: How It Works (Brief - 3 Steps for Customer)
+- Heading: Get Your Work Done in 3 Simple Steps
+- Step 1: Post Your Requirement
+  - Icon
+  - Describe what you need, set your budget and timeline. Takes less than 2 minutes.
+- Step 2: Review and Hire
+  - Icon
+  - Browse verified providers who apply. Check ratings, budget and reviews. Hire one or more.
+- Step 3: Pay Securely After Completion
+  - Icon
+  - Payment is held safely until your work is done and you are satisfied.
+- CTA: Post Your First Service Free
+
+---
+
+## Section 5: Service Categories Grid
+- Heading: What Do You Need Help With?
+- Sub: Browse from 20 plus professional service categories
+- Category Cards (icons with names):
+  - Painter
+  - Plumber
+  - Electrician
+  - Carpenter
+  - Home Cleaner
+  - Gardener
+  - AC Repair
+  - Appliance Repair
+  - Mason
+  - Welder
+  - Interior Designer
+  - Pest Control
+  - Waterproofing
+  - False Ceiling
+  - Tile and Flooring
+  - And More
+- CTA below: View All Categories
+
+---
+
+## Section 6: Why Choose Us (Customer Focus)
+- Heading: Why Thousands Choose Us for Their Home Services
+- Feature 1: Smart Location Matching
+  - Providers within 50km of your location automatically see your requirement. No more cold calls or random searches.
+- Feature 2: Verified Professionals Only
+  - Every provider goes through Aadhaar and PAN verification. You know exactly who is coming to your home.
+- Feature 3: You Control the Budget
+  - Set your own budget. Providers apply with their proposals. You compare and choose. No surprise bills.
+- Feature 4: Secure Escrow Payment
+  - Your money is held safely and only released after you approve the completed work. Zero risk.
+- Feature 5: Real Time Work Tracking
+  - Clock in and clock out tracking for hourly jobs. Day tracking for longer projects. Always know what is happening.
+- Feature 6: Dispute Protection
+  - Something went wrong? Our team reviews every dispute fairly and resolves within 24 hours.
+
+---
+
+## Section 7: For Providers Highlight
+- Heading: Are You a Skilled Professional?
+- Sub: Join thousands of verified service providers earning on their own terms
+- Point 1: Work on Your Schedule. Accept jobs only when you want.
+- Point 2: Get Paid Fairly. No middlemen taking huge cuts.
+- Point 3: Build Your Reputation. Collect reviews and grow your profile.
+- Point 4: Instant Job Alerts. Get notified when nearby jobs match your skill.
+- CTA: Start Earning Today
+
+---
+
+## Section 8: How Payment Works
+- Heading: Your Money is Always Safe
+- Step 1: Customer pays when hiring. Payment goes into secure escrow hold.
+- Step 2: Work begins after OTP verification at location.
+- Step 3: Provider submits completion with photos.
+- Step 4: Customer approves and payment releases to provider wallet.
+- Step 5: Provider requests payout anytime to their bank account.
+- Trust note: We use bank grade encryption for all transactions.
+
+---
+
+## Section 9: App Download Section
+- Heading: Take Control From Your Phone
+- Sub: Post services, track work, chat with providers and manage payments. All in one app.
+- App Features list:
+  - Post service in under 2 minutes
+  - Real time chat with providers
+  - Live clock tracking for hourly jobs
+  - Instant notifications
+  - Secure UPI payments
+  - Full payment history
+- Download on Play Store Button
+- Download on App Store Button
+- App preview illustration (abstract mockup, no real data shown)
+
+---
+
+## Section 10: Blog Highlights
+- Heading: Tips, Guides and Home Service Advice
+- Show 3 latest blog cards with:
+  - Topic image (illustration)
+  - Category tag
+  - Title
+  - Short description
+  - Read More link
+- CTA: Visit Our Blog
+
+---
+
+## Section 11: FAQ Teaser
+- Heading: Quick Answers
+- Show 4 common questions with expandable answers:
+  - Is it free to post a service?
+  - How are providers verified?
+  - When does payment get released?
+  - What if I am not satisfied with the work?
+- CTA: View All FAQs
+
+---
+
+## Section 12: Footer
+- Logo and one line description
+- Links Column 1: Company
+  - About Us
+  - How It Works
+  - Services
+  - Blog
+  - Careers
+- Links Column 2: For Users
+  - Post a Service
+  - Join as Provider
+  - Pricing
+  - Trust and Safety
+  - FAQ
+- Links Column 3: Legal
+  - Terms of Service
+  - Privacy Policy
+  - Cookie Policy
+  - Refund Policy
+- Links Column 4: Contact
+  - Contact Us
+  - Support Email
+  - WhatsApp Support
+  - Social Media Icons
+- Bottom bar:
+  - Copyright 2026 App Name. All rights reserved.
+  - Made in India
+
+---
+
+# PAGE 2: HOW IT WORKS PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: Simple. Transparent. Reliable.
+- Sub: We built a system where customers get great service and providers get fair pay. Here is exactly how it works.
+
+---
+
+## Section 2: For Customers Full Flow
+- Heading: How It Works for Customers
+- Step 1: Create Your Free Account
+  - Sign up with your mobile number. Verify via WhatsApp OTP. Add your basic details and address. Done in 3 minutes.
+- Step 2: Post Your Service Requirement
+  - Select the service category. Describe what you need in your own words. Set your budget. Choose hourly, daily or fixed pricing. Add photos or voice notes if needed. Add your location.
+- Step 3: Receive Provider Applications
+  - Verified providers in your area automatically see your post. They apply with their proposed budget and timeline. You receive notifications for each application.
+- Step 4: Review and Compare
+  - View each provider profile. Check their ratings, completed jobs, reviews from past customers and their proposed budget. Compare easily.
+- Step 5: Hire One or More
+  - Select the providers you want. You can hire multiple providers for the same job if needed.
+- Step 6: Make Secure Payment
+  - Pay via UPI. Your payment goes into secure escrow. It is not released until you are satisfied.
+- Step 7: Work Begins with OTP
+  - When your provider arrives, share a one time password to officially start the contract. This protects both sides.
+- Step 8: Track the Work
+  - For hourly jobs, see real time clock in and clock out. Get notified when work starts and stops. For day based jobs, see daily progress.
+- Step 9: Review and Approve
+  - Provider submits completion photos and message. You review. If satisfied, approve and payment releases. If not, raise a concern.
+- Step 10: Rate and Review
+  - Leave a rating and review for your provider. Help others make better decisions.
+
+---
+
+## Section 3: For Providers Full Flow
+- Heading: How It Works for Providers
+- Step 1: Create Your Provider Account
+  - Sign up with mobile. Verify via WhatsApp OTP. Add your basic details and your skill category.
+- Step 2: Complete KYC Verification
+  - Upload Aadhaar front and back. Enter PAN number. Add your bank account details for payouts. Submit for admin review.
+- Step 3: Get Approved
+  - Our team reviews your documents manually. Approval usually takes 24 to 48 hours. You get notified via WhatsApp.
+- Step 4: See Nearby Jobs
+  - Once approved, job requests matching your category within 50km appear on your home screen automatically.
+- Step 5: Apply for Jobs
+  - Read the job description. Submit your proposed budget, start time and a short message to the customer.
+- Step 6: Get Hired
+  - Customer reviews your profile and application. If selected, you receive a hire notification. Accept or decline.
+- Step 7: Start Work with OTP
+  - Customer shares an OTP. Enter it on arrival to officially begin the contract. Chat with customer for details.
+- Step 8: Track and Submit
+  - For hourly jobs, use clock in and clock out. For daily jobs, mark each working day. When done, submit completion photos.
+- Step 9: Get Paid to Wallet
+  - After customer approves, your earnings minus platform fee go to your in app wallet.
+- Step 10: Withdraw Anytime
+  - Request payout to your bank account anytime. Processed within 24 to 48 hours.
+
+---
+
+## Section 4: Payment Security Explained
+- Heading: How Your Money is Protected
+- Escrow System Explanation:
+  - When a customer hires and pays, the money does not go directly to the provider. It is held in a secure escrow system.
+  - The provider can only receive payment after the customer approves the completed work.
+  - If there is a dispute, our team reviews and decides fairly.
+  - Platform fee is transparent and shown upfront before payment.
+- Visual flow of payment journey
+
+---
+
+## Section 5: Work Types Explained
+- Heading: Three Ways to Work
+- Hourly: Pay for exact hours worked. Provider clocks in and out. You see every hour tracked.
+- Daily: Agree on number of days. Provider marks each working day. Simple and clear.
+- Fixed Budget: Agree on a total price for the complete job. Straightforward for defined tasks.
+
+---
+
+## Section 6: CTA Section
+- Heading: Ready to Get Started?
+- Customer CTA: Post a Service Now
+- Provider CTA: Register as Provider
+
+---
+
+# PAGE 3: SERVICES PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: Every Home Service. One Platform.
+- Sub: From quick fixes to complete renovations. Find verified professionals for every need.
+
+---
+
+## Section 2: Search and Filter Bar
+- Search services input
+- Location input
+- Find Professionals Button
+
+---
+
+## Section 3: All Service Categories
+- Heading: Browse All Service Categories
+- Category cards in grid layout
+- Each card:
+  - Illustration icon
+  - Category name
+  - One line description
+  - Example tasks listed below
+  - Learn More or Post Service link
+
+### Categories with descriptions:
+- Painting
+  - Interior and exterior painting, texture work, waterproofing paint, wall putty, primer application
+- Plumbing
+  - Pipe repair, tap installation, drainage cleaning, bathroom fitting, water tank cleaning
+- Electrical
+  - Wiring, switch board repair, fan installation, inverter setup, CCTV installation
+- Carpentry
+  - Furniture assembly, door repair, cupboard making, wooden flooring, window frames
+- Home Cleaning
+  - Deep cleaning, sofa cleaning, carpet cleaning, kitchen cleaning, bathroom cleaning
+- AC and Appliance Repair
+  - AC service and gas refill, washing machine repair, refrigerator repair, geyser repair
+- Gardening and Landscaping
+  - Garden maintenance, plant installation, lawn care, pot arrangement, tree trimming
+- Pest Control
+  - Cockroach treatment, termite control, bed bug treatment, rodent control, mosquito spray
+- Masonry and Construction
+  - Wall repair, plastering, tile fixing, concrete work, boundary walls
+- Welding and Fabrication
+  - Gate fabrication, grille work, steel furniture, railings, industrial welding
+- Interior Design
+  - Space planning, modular kitchen, wardrobe design, false ceiling, lighting design
+- Waterproofing
+  - Roof waterproofing, bathroom waterproofing, basement treatment, terrace coating
+- Tile and Flooring
+  - Tile laying, marble polishing, floor leveling, vinyl flooring, granite work
+- False Ceiling
+  - Gypsum ceiling, POP work, grid ceiling, wooden ceiling, LED panel fitting
+- Security and CCTV
+  - Camera installation, DVR setup, door lock installation, video doorbell, alarm system
+
+---
+
+## Section 4: How Posting Works for Any Service
+- Heading: Getting Help is Always This Simple
+- 3 step visual: Post, Compare, Hire
+- CTA: Post Your Requirement
+
+---
+
+## Section 5: Service Guarantee
+- Heading: Our Promise for Every Service
+- Verified provider always
+- Transparent pricing always
+- Secure payment always
+- Dispute protection always
+
+---
+
+# PAGE 4: FOR PROVIDERS PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: Turn Your Skills Into a Steady Income
+- Sub: Join a platform built for skilled professionals. Find local jobs, work on your terms, get paid fairly and build a reputation that lasts.
+- CTA: Register as Provider Today
+- Small note: KYC required for trust and safety
+
+---
+
+## Section 2: Why Join Us
+- Heading: Why Skilled Professionals Choose Our Platform
+- Benefit 1: Find Work Without Searching
+  - Jobs matching your skill automatically appear based on your location. No cold calling. No chasing leads.
+- Benefit 2: Work When You Want
+  - Toggle your availability on and off. Accept only the jobs that fit your schedule. Full flexibility.
+- Benefit 3: Fair and Transparent Pay
+  - See the platform fee upfront before accepting any job. No surprise deductions. Earnings go straight to your wallet.
+- Benefit 4: Build a Verified Profile
+  - Your KYC verified badge builds customer trust. Collect ratings and reviews with every job.
+- Benefit 5: Instant Notifications
+  - Get alerted instantly when a job matching your skill is posted nearby. First to apply, first to be seen.
+- Benefit 6: Withdraw Anytime
+  - Request payout to your bank account whenever you want. No minimum waiting period.
+
+---
+
+## Section 3: Provider Journey Steps
+- Heading: Your Journey to Earning
+- Step 1: Download App and Register
+- Step 2: Complete KYC (Aadhaar, PAN, Bank)
+- Step 3: Get Approved in 24 to 48 Hours
+- Step 4: Browse and Apply for Nearby Jobs
+- Step 5: Get Hired, Work, Earn
+
+---
+
+## Section 4: KYC Explained
+- Heading: Why We Verify Every Provider
+- Sub: We verify every provider to protect customers and to protect you. A verified badge on your profile builds instant trust with customers.
+- Documents needed:
+  - Aadhaar Card (front and back image)
+  - PAN Card Number
+  - Bank Account Details for payouts
+- Note: Your documents are securely stored and never shared with customers. Only our admin team reviews them.
+
+---
+
+## Section 5: Earnings and Payout
+- Heading: How Your Earnings Work
+- Transparent platform fee on every job
+- Earnings credited to wallet after customer approval
+- Request payout to your bank account anytime
+- No hidden deductions
+- Full earnings history in your app
+
+---
+
+## Section 6: Available Service Categories
+- Heading: What Skills Are In Demand
+- Same category grid as services page
+- Highlight which categories have high demand
+
+---
+
+## Section 7: Provider Requirements
+- Heading: Who Can Join
+- Must be 18 years or older
+- Must have valid Aadhaar card
+- Must have valid PAN card
+- Must have active bank account
+- Must have smartphone with internet
+- Must have the skill you are registering for
+- Must be willing to travel within your service area
+
+---
+
+## Section 8: CTA Section
+- Heading: Start Earning From Your Skills Today
+- Sub: Registration is free. KYC is simple. Earning starts after approval.
+- Register Now Button
+- Download App Button
+
+---
+
+# PAGE 5: ABOUT US PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: We Built the Bridge Between Skilled Hands and Homes That Need Them
+- Sub: A platform born from a simple frustration. Finding a reliable, fairly priced, trustworthy service professional should not be this hard. So we fixed it.
+
+---
+
+## Section 2: Our Story
+- Heading: Why We Built This
+- Content:
+  Finding a reliable painter, plumber or electrician has always been a chaotic experience. You call random numbers from a board on the road. You have no idea about their skill level. You negotiate blindly. You pay cash upfront and hope for the best. And if something goes wrong, you have no recourse.
+  
+  At the same time, skilled professionals struggle daily. They depend on word of mouth. They have no digital presence. They cannot scale their work. Their earnings are unpredictable and unfair middlemen take large cuts.
+  
+  We built this platform to solve both problems at once. A space where customers can find verified professionals with complete transparency. And a space where skilled professionals can build a real livelihood with dignity.
+
+---
+
+## Section 3: Our Mission
+- Heading: Our Mission
+- To create the most trusted local service marketplace in India. Where every professional is verified, every transaction is secure and every customer is protected.
+
+---
+
+## Section 4: Our Vision
+- Heading: Our Vision for 2026 and Beyond
+- Sub point 1: Expand across every major city in India
+- Sub point 2: Become the default platform for home service discovery
+- Sub point 3: Help a million skilled professionals build sustainable incomes
+- Sub point 4: Make verified, fairly priced home services accessible to every household
+
+---
+
+## Section 5: Our Values
+- Heading: What We Stand For
+- Trust: Every provider is KYC verified. Every transaction is protected.
+- Transparency: Pricing, platform fees and work tracking are always visible.
+- Fairness: Providers earn what they deserve. Customers pay what is fair.
+- Safety: Escrow payments, OTP contract start and dispute resolution protect everyone.
+- Community: We are building livelihoods, not just completing transactions.
+
+---
+
+## Section 6: The Team
+- Heading: Built by a Team That Cares
+- Sub: A passionate team of product designers, engineers and operations people who believe in making skilled work respected and rewarding.
+- Note: No individual names or photos. Keep it general for 2026 early stage.
+
+---
+
+## Section 7: CTA
+- Heading: Join Our Growing Community
+- Customer CTA: Post a Service
+- Provider CTA: Join as Provider
+
+---
+
+# PAGE 6: TRUST AND SAFETY PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: Your Safety is Our Foundation
+- Sub: Every feature we build starts with one question. How does this protect our customers and providers?
+
+---
+
+## Section 2: For Customers - Safety Measures
+- Heading: How We Keep Customers Safe
+- KYC Verified Providers: Every provider submits Aadhaar, PAN and is manually reviewed by our team before being approved. Unverified providers cannot access any job.
+- OTP Contract Start: Work only begins when you share an OTP with your provider at your location. This confirms both parties are present and ready.
+- Secure Escrow Payment: Your payment is never released to the provider until you approve the completed work. Your money stays protected throughout.
+- Real Time Tracking: For hourly jobs, see exact clock in and clock out times. Get instant notifications when work starts and stops.
+- Chat History: All communication between you and your provider is saved and monitored. We can review any conversation if needed.
+- Dispute Resolution: Not satisfied? Raise a concern. Our team reviews the dispute, checks chat history, photos and work log and resolves within 24 hours.
+- Review System: Honest ratings and reviews from real customers help you choose the right professional every time.
+
+---
+
+## Section 3: For Providers - Safety Measures
+- Heading: How We Protect Providers
+- Verified Identity: Your KYC verification protects your professional reputation and builds customer trust.
+- Secure Earnings: Payments are held in escrow and released after approval. Your earnings are protected from false claims through our dispute review process.
+- OTP Work Start: The OTP system protects you too. It creates a clear record of when work officially started.
+- Completion Evidence: Submit completion photos and a message. This evidence protects you in any dispute.
+- Fair Dispute Process: Our team reviews both sides equally. We look at chat history, photos, clock entries and work logs before deciding.
+- Transparent Fee: Platform fee is shown before you accept any job. No surprise deductions.
+
+---
+
+## Section 4: Data Privacy
+- Heading: Your Data is Protected
+- We never share your personal details with other users without consent
+- Customer addresses are only shown to hired providers after contract starts
+- Provider Aadhaar and bank details are encrypted and never visible to customers
+- All data is stored on secure encrypted servers
+- We comply with applicable data protection laws
+
+---
+
+## Section 5: Payment Security
+- Heading: Bank Grade Payment Security
+- UPI payments processed through certified payment gateway
+- Escrow system holds funds securely
+- All transactions are encrypted
+- Detailed transaction history always available
+
+---
+
+## Section 6: Our Policies
+- Links to: Terms of Service, Privacy Policy, Refund Policy, Dispute Policy
+
+---
+
+# PAGE 7: PRICING PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: Simple and Transparent Pricing
+- Sub: No subscriptions. No hidden fees. Just a small platform fee only when a job is successfully completed.
+
+---
+
+## Section 2: For Customers
+- Heading: Free for Customers
+- Post as many services as you want: Free
+- Browse all providers: Free
+- Review applications: Free
+- Chat with providers: Free
+- Raise disputes: Free
+- What you pay: Only the agreed service amount + applicable taxes
+
+---
+
+## Section 3: For Providers
+- Heading: Pay Only When You Earn
+- Registration: Free
+- KYC verification: Free
+- Browsing job requests: Free
+- Applying for jobs: Free
+- Platform fee: Small percentage deducted only when payment is released
+- Payout requests: Free
+- Important note: Platform fee percentage is shown clearly before you accept any contract. No surprise deductions ever.
+
+---
+
+## Section 4: How Platform Fee Works
+- Heading: How the Platform Fee Works
+- Example walkthrough:
+  - Customer agrees to pay a provider a certain amount
+  - Provider completes the work
+  - Customer approves
+  - Platform fee is deducted from the provider payout
+  - Provider receives the remaining amount in their wallet
+  - No fee charged to customer beyond agreed service price
+- Note: Exact fee percentage visible in app before every contract confirmation
+
+---
+
+## Section 5: FAQ on Pricing
+- Is there a monthly subscription for providers? No. We only earn when you earn.
+- Are there any registration fees? No. Registration and KYC are completely free.
+- Can customers be charged extra beyond the agreed amount? No. You pay exactly what is agreed.
+- What happens if a job is cancelled before starting? Refer to our refund policy.
+
+---
+
+# PAGE 8: CONTACT PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: We Are Here to Help
+- Sub: Got a question, concern or feedback? Reach us through any of the channels below.
+
+---
+
+## Section 2: Contact Options
+- WhatsApp Support: Click to chat on WhatsApp with support team. Available Monday to Saturday, 9 AM to 7 PM.
+- Email Support: support at appname dot com. Response within 24 hours.
+- For Provider KYC queries: kyc at appname dot com
+- For Payment and Payout queries: payments at appname dot com
+- For Disputes: disputes at appname dot com
+
+---
+
+## Section 3: Contact Form
+- Full Name input
+- Mobile Number input
+- Email input
+- I am a: Customer or Provider or Other (dropdown)
+- Subject input
+- Message text area
+- Submit Button
+
+---
+
+## Section 4: Office Information
+- Registered Office: City name and state (no full address needed at launch)
+- Working Hours: Monday to Saturday, 9 AM to 7 PM IST
+- Response time: We respond to all queries within 24 hours
+
+---
+
+## Section 5: Social Media
+- Follow us for updates, tips and service guides
+- Instagram, Facebook, LinkedIn, YouTube links
+
+---
+
+# PAGE 9: BLOG PAGE
+
+---
+
+## Section 1: Blog Hero
+- Heading: Home Service Guides, Tips and Insights
+- Sub: Everything you need to know about hiring professionals, managing home work and getting the best value.
+
+---
+
+## Section 2: Featured Post
+- Large feature card with topic illustration
+- Category tag
+- Title
+- Short description
+- Read More link
+
+---
+
+## Section 3: Blog Categories Filter
+- All Posts
+- Home Maintenance
+- Hiring Tips
+- DIY vs Professional
+- Seasonal Guides
+- Provider Stories
+- Platform Updates
+
+---
+
+## Section 4: Blog Posts Grid
+- Each blog card:
+  - Topic illustration
+  - Category tag
+  - Title
+  - Short description (2 lines)
+  - Read time (e.g. 4 min read)
+  - Read More link
+
+### Suggested Blog Topic Ideas for Launch:
+- How to Hire a Painter for Your Home: Complete Guide
+- 10 Signs Your Home Needs Electrical Rewiring
+- How to Describe Your Service Requirement Clearly
+- Hourly vs Fixed Price: Which is Better for Your Job
+- How to Read a Provider Profile Before Hiring
+- Pre-Monsoon Home Maintenance Checklist
+- Why You Should Never Pay Service Providers in Full Upfront
+- How KYC Verification Protects You as a Customer
+- Questions to Ask Before Hiring a Plumber
+- How to Set the Right Budget for Home Painting
+
+---
+
+## Section 5: Newsletter Signup
+- Heading: Get Home Service Tips Every Week
+- Sub: Join our newsletter for guides, seasonal tips and platform updates.
+- Email input
+- Subscribe Button
+
+---
+
+# PAGE 10: FAQ PAGE
+
+---
+
+## Section 1: Page Hero
+- Heading: Frequently Asked Questions
+- Sub: Find answers to the most common questions about our platform.
+
+---
+
+## Section 2: FAQ Categories Tabs
+- General
+- For Customers
+- For Providers
+- Payments
+- Safety
+- Technical
+
+---
+
+## General FAQs
+- What is this platform?
+  - A marketplace that connects customers who need home services with verified local professionals. Customers post their requirements, providers apply, and work begins after secure payment.
+- Is this app available across India?
+  - We are currently available in select cities and expanding rapidly. Check the app for your city availability.
+- Is the app free to download?
+  - Yes. The app is completely free to download for both customers and providers.
+
+---
+
+## For Customer FAQs
+- Do I need to create an account to post a service?
+  - Yes. You need to verify your mobile number and create a basic profile to post a service request.
+- Can I hire more than one provider for the same job?
+  - Yes. For bigger jobs, you can hire multiple providers simultaneously.
+- What if a provider does not show up?
+  - You can cancel the contract before it starts. Payment is not released until work begins with OTP verification. Refund policy applies.
+- Can I see provider details before hiring?
+  - Yes. You can view their name, profile, category, experience, rating, completed jobs and reviews before making a decision.
+- Is my home address visible to all providers?
+  - No. Only your area is shown to providers browsing requests. Full address is only shared with providers you hire, after contract starts.
+
+---
+
+## For Provider FAQs
+- How long does KYC approval take?
+  - Typically 24 to 48 hours after document submission. You will be notified via WhatsApp.
+- What happens if my KYC is rejected?
+  - You will receive the rejection reason. You can resubmit corrected documents for review.
+- Can I apply for multiple jobs at the same time?
+  - Yes. You can apply for as many open jobs as you want in your area.
+- What if a customer raises a false dispute?
+  - Our team reviews all evidence including chat history, clock entries and completion photos. We protect providers from unfair claims.
+- How many categories can I register under?
+  - Currently one primary category per provider account.
+
+---
+
+## Payment FAQs
+- When is payment collected from the customer?
+  - Payment is collected when the customer hires and confirms the provider selection. Before work begins.
+- When does the provider receive payment?
+  - After the customer approves the completed work. Earnings are credited to the provider wallet.
+- How do providers withdraw their earnings?
+  - By requesting a payout through the app. Amount transferred to registered bank account within 24 to 48 hours.
+- What is the platform fee?
+  - A small percentage deducted from the provider payout. Shown clearly before every contract. No hidden charges.
+- What if I need a refund?
+  - Refer to our refund policy. Disputes are reviewed by our team and resolved fairly.
+
+---
+
+## Safety FAQs
+- How are providers verified?
+  - Every provider submits Aadhaar card, PAN card and bank details. Our admin team manually reviews and approves each one.
+- Is my personal data safe?
+  - Yes. All data is encrypted and stored securely. We never share your personal information with third parties.
+- What is the OTP system?
+  - A one time password shared by the customer with the provider at the work location to officially start the contract. This protects both parties.
+
+---
+
+# PAGE 11: TERMS OF SERVICE PAGE
+
+---
+
+## Structure Only (Content to be written by legal team)
+- Section 1: Introduction and Acceptance of Terms
+- Section 2: Definitions
+- Section 3: Platform Role (marketplace intermediary, not a service provider)
+- Section 4: Customer Responsibilities
+- Section 5: Provider Responsibilities
+- Section 6: KYC and Verification
+- Section 7: Service Posting Rules
+- Section 8: Payment Terms and Escrow
+- Section 9: Cancellation and Refund Policy
+- Section 10: Dispute Resolution Process
+- Section 11: Prohibited Activities
+- Section 12: Intellectual Property
+- Section 13: Limitation of Liability
+- Section 14: Governing Law (Indian jurisdiction)
+- Section 15: Changes to Terms
+- Section 16: Contact for Legal Queries
+- Effective Date: 2026
+
+---
+
+# PAGE 12: PRIVACY POLICY PAGE
+
+---
+
+## Structure Only
+- Section 1: Introduction
+- Section 2: What Data We Collect
+  - Mobile number
+  - Name, DOB, gender, profession
+  - Address and location
+  - Provider KYC documents
+  - Device information
+  - Usage data
+- Section 3: How We Use Your Data
+- Section 4: Data Storage and Security
+- Section 5: Data Sharing Policy (we do not sell data)
+- Section 6: Cookies and Tracking
+- Section 7: User Rights (access, correction, deletion)
+- Section 8: Retention Policy
+- Section 9: Children's Privacy (platform for 18 plus only)
+- Section 10: Changes to Privacy Policy
+- Section 11: Contact for Privacy Queries
+- Effective Date: 2026
+
+---
+
+# PAGE 13: COOKIE POLICY PAGE
+
+---
+
+## Structure Only
+- Section 1: What Are Cookies
+- Section 2: Types of Cookies We Use
+  - Essential cookies
+  - Analytics cookies
+  - Preference cookies
+- Section 3: Why We Use Cookies
+- Section 4: How to Control Cookies
+- Section 5: Third Party Cookies
+- Section 6: Updates to Cookie Policy
+- Effective Date: 2026
+
+---
+
+# COMPLETE LANDING PAGE SUMMARY
+
+| Page | Primary Goal |
+|---|---|
+| Home | Convert visitors to app downloads and signups |
+| How It Works | Educate and reduce hesitation |
+| Services | Show breadth of categories, drive service posts |
+| For Providers | Recruit quality providers |
+| About Us | Build brand trust and credibility |
+| Trust and Safety | Overcome safety concerns |
+| Pricing | Remove confusion about costs |
+| Contact | Provide support access |
+| Blog | SEO and education |
+| FAQ | Reduce support load |
+| Terms of Service | Legal protection |
+| Privacy Policy | Legal compliance |
+| Cookie Policy | Legal compliance |
+
+---
+
+**Total: 13 Pages with complete content structure. Zero user data revealed. Designed for 2026 modern service marketplace positioning.**
