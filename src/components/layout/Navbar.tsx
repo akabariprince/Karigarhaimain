@@ -1,4 +1,4 @@
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { ArrowRight, ChevronDown, Menu, X } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { premiumNav } from '../../data/routes';
@@ -24,7 +24,7 @@ export function Navbar() {
     () =>
       cn(
         'fixed left-0 right-0 top-0 z-[120] transition-all duration-300',
-        scrolled ? 'bg-bg/82 shadow-glow backdrop-blur-2xl' : 'bg-transparent',
+        scrolled ? 'border-b border-line bg-panel/85 backdrop-blur-2xl' : 'bg-transparent',
       ),
     [scrolled],
   );
@@ -35,7 +35,7 @@ export function Navbar() {
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-5 py-4 lg:px-8">
           <Link to="/" className="group flex items-center gap-3">
             <div className="leading-tight">
-              <p className="font-display text-base font-semibold tracking-[0.04em] sm:text-lg lg:text-xl">
+              <p className="font-display text-xl font-semibold tracking-[0.02em] sm:text-2xl lg:text-2xl">
                 <span className="text-text">Karigar</span>
                 <span className="text-brand-500">Hai</span>
               </p>
@@ -48,15 +48,9 @@ export function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <button className="ml-2 inline-flex items-center gap-1 rounded-full px-3 py-2 text-sm text-muted transition hover:bg-panel hover:text-text">
-              More <ChevronDown className="h-4 w-4" />
-            </button>
           </nav>
 
           <div className="ml-auto hidden items-center gap-3 md:flex">
-            <Link className="rounded-full px-4 py-2 text-sm text-muted transition hover:bg-panel hover:text-text" to="/contact">
-              Login
-            </Link>
             <Link
               className="rounded-full bg-gradient-to-r from-brand-500 to-brand-600 px-5 py-2.5 text-sm font-medium text-white shadow-soft transition-transform hover:-translate-y-0.5"
               to="/contact"
@@ -66,7 +60,10 @@ export function Navbar() {
           </div>
 
           <button
-            className="ml-auto grid h-11 w-11 place-items-center rounded-2xl border border-line bg-panel shadow-soft xl:hidden"
+            className={cn(
+              'ml-auto grid h-11 w-11 place-items-center rounded-2xl border border-line bg-panel shadow-soft transition-opacity xl:hidden',
+              open ? 'pointer-events-none opacity-0' : 'opacity-100',
+            )}
             onClick={() => setOpen((value) => !value)}
             aria-label="Toggle menu"
           >
@@ -98,34 +95,46 @@ function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
     <>
       <div
-        className={cn('fixed inset-0 z-[110] bg-slate-950/40 backdrop-blur-sm transition-opacity xl:hidden', open ? 'opacity-100' : 'pointer-events-none opacity-0')}
+        className={cn('fixed inset-0 z-[110] bg-slate-950/20 backdrop-blur-sm transition-opacity xl:hidden', open ? 'opacity-100' : 'pointer-events-none opacity-0')}
         onClick={onClose}
       />
       <aside
         className={cn(
-          'fixed right-0 top-0 z-[115] h-full w-[88vw] max-w-sm border-l border-line bg-bg/96 p-5 shadow-soft backdrop-blur-2xl transition-transform duration-300 xl:hidden',
-          open ? 'translate-x-0' : 'translate-x-full',
+          'fixed right-0 top-0 z-[130] h-full w-[92vw] max-w-sm border-l border-white/40 bg-[linear-gradient(180deg,rgba(255,255,255,0.97),rgba(243,248,248,0.92))] p-5 shadow-[0_24px_80px_rgba(7,19,22,0.18)] backdrop-blur-[30px] transition-all duration-300 xl:hidden',
+          open ? 'translate-x-0 opacity-100 visible' : 'translate-x-[calc(100%+24px)] opacity-0 invisible',
         )}
       >
-        <div className="flex items-center justify-between">
-          <span className="font-display text-base font-semibold tracking-[0.04em]">
-            <span className="text-text">Karigar</span>
-            <span className="text-brand-500">Hai</span>
-          </span>
-          <button onClick={onClose} className="grid h-10 w-10 place-items-center rounded-full bg-panel">
+        <div className="flex items-start justify-between gap-4 pr-12">
+          <div className="min-w-0">
+            <span className="block font-display text-xl font-semibold tracking-[0.02em] sm:text-2xl">
+              <span className="text-text">Karigar</span>
+              <span className="text-brand-500">Hai</span>
+            </span>
+          </div>
+          <button onClick={onClose} className="absolute right-5 top-5 grid h-10 w-10 place-items-center rounded-full border border-white/70 bg-white/95 backdrop-blur-xl">
             <X className="h-5 w-5" />
           </button>
         </div>
-        <div className="mt-8 space-y-2">
+        <div className="mt-6 space-y-2">
           {premiumNav.map((item) => (
             <Link
               key={item.href}
               to={item.href}
-              className="block rounded-2xl border border-line bg-panel px-4 py-3 text-base font-medium text-text"
+              className="flex items-center justify-between rounded-2xl border border-white/70 bg-white/92 px-4 py-4 text-base font-medium text-text transition hover:-translate-y-0.5 hover:bg-white hover:shadow-soft"
             >
               {item.label}
+              <ArrowRight className="h-4 w-4 text-brand-500" />
             </Link>
           ))}
+        </div>
+        <div className="mt-6 rounded-[1.5rem] border border-white/70 bg-white/92 p-4 backdrop-blur-xl">
+          <p className="text-xs uppercase tracking-[0.28em] text-muted">Quick action</p>
+          <Link
+            to="/contact"
+            className="mt-3 inline-flex w-full items-center justify-center rounded-2xl bg-brand-500 px-4 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5 hover:bg-brand-600"
+          >
+            Download App
+          </Link>
         </div>
       </aside>
     </>

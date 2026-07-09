@@ -15,16 +15,16 @@ export function useScrollReveal(scope?: string) {
       root.querySelectorAll<HTMLElement>('[data-reveal]').forEach((node) => {
         gsap.fromTo(
           node,
-          { y: 36, opacity: 0, filter: 'blur(10px)' },
+          { y: 20, opacity: 0 },
           {
             y: 0,
             opacity: 1,
-            filter: 'blur(0px)',
-            duration: 1,
-            ease: 'power4.out',
+            duration: 0.55,
+            ease: 'power2.out',
             scrollTrigger: {
               trigger: node,
-              start: 'top 85%',
+              start: 'top 90%',
+              once: true,
             },
           },
         );

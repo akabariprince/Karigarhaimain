@@ -32,11 +32,13 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top, rgba(47, 140, 151, 0.12), transparent 28%),
-    radial-gradient(circle at 90% 10%, rgba(216, 128, 77, 0.11), transparent 20%),
-    linear-gradient(180deg, #f7fbfb 0%, #f3f8f8 100%);
+    radial-gradient(circle at top, rgba(47, 140, 151, 0.06), transparent 26%),
+    radial-gradient(circle at 90% 10%, rgba(216, 128, 77, 0.05), transparent 18%),
+    linear-gradient(180deg, #ffffff 0%, #f8fcfc 100%);
   color: hsl(var(--text));
   font-family: Inter, system-ui, sans-serif;
+  scrollbar-color: hsl(var(--brand-400)) hsl(var(--panel));
+  scrollbar-width: thin;
 }
 
 ::selection {
@@ -60,6 +62,25 @@ img,
 video {
   display: block;
   max-width: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: hsl(var(--panel));
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 2px solid hsl(var(--panel));
+  border-radius: 999px;
+  background: linear-gradient(180deg, hsl(var(--brand-400)), hsl(var(--brand-600)));
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, hsl(var(--brand-300)), hsl(var(--brand-500)));
 }
 
 .text-balance {

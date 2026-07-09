@@ -1,5 +1,7 @@
-import { ArrowUpRight, Globe, Mail, MessageCircle, PlayCircle } from 'lucide-react';
+import type { ComponentType } from 'react';
+import { ArrowUpRight, Mail, PhoneCall, PlayCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { WhatsAppMark } from '../shared/WhatsAppMark';
 
 const footerLinks = {
   Company: [
@@ -40,10 +42,9 @@ export function Footer() {
               Modular frontend architecture, premium motion, and scalable page templates built for the full website.
             </p>
             <div className="flex flex-wrap gap-3">
-              <IconButton href="mailto:support@karigarhai.com" icon={Mail} label="Email" />
-              <IconButton href="#" icon={Globe} label="Website" />
-              <IconButton href="#" icon={MessageCircle} label="Support" />
-              <IconButton href="#" icon={PlayCircle} label="Video" />
+              <IconButton href="mailto:hello@karigarhai.com" icon={Mail} label="hello@karigarhai.com" />
+              <IconButton href="tel:+919099807800" icon={PhoneCall} label="+91 9099 807 800" />
+              <IconButton href="https://wa.me/919099807800" icon={WhatsAppMark} label="WhatsApp" />
             </div>
           </div>
 
@@ -66,7 +67,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col gap-3 border-t border-line pt-6 text-sm text-muted md:flex-row md:items-center md:justify-between">
-          <p>Copyright 2026 KarigarHai. All rights reserved.</p>
+          <p>Copyright 2026 KarigarHai. Developed by Astitva Technologies. All rights reserved.</p>
           <p>Made in India</p>
         </div>
       </div>
@@ -74,7 +75,9 @@ export function Footer() {
   );
 }
 
-function IconButton({ href, icon: Icon, label }: { href: string; icon: typeof Mail; label: string }) {
+type IconComponent = ComponentType<{ className?: string }>;
+
+function IconButton({ href, icon: Icon, label }: { href: string; icon: IconComponent; label: string }) {
   return (
     <a
       href={href}

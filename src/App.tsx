@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Suspense, lazy, useEffect, useMemo, useState } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { SiteShell } from './components/layout/SiteShell';
+import { Seo } from './components/seo/Seo';
 import { ScrollProgress } from './components/layout/ScrollProgress';
 import { routeGroups } from './data/routes';
 import { useLenis } from './hooks/useLenis';
@@ -57,6 +58,22 @@ function AppLoader() {
 export default function App() {
   const location = useLocation();
   const [booted, setBooted] = useState(false);
+  const legalPages = new Set(['/privacy-policy', '/terms-of-service', '/cookie-policy']);
+  const noPageMotion = legalPages.has(location.pathname);
+  const knownPaths = new Set([
+    '/',
+    '/home',
+    '/for-customers',
+    '/for-providers',
+    '/safety-verification',
+    '/terms',
+    '/cookies-policy',
+    '/refund-policy',
+    '/support',
+    '/careers',
+    ...routeGroups.map((route) => route.path),
+  ]);
+  const isKnownPath = knownPaths.has(location.pathname);
 
   useLenis();
 
@@ -73,22 +90,31 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-bg text-text antialiased">
+      <Seo noindex={!isKnownPath} />
       {!booted ? <AppLoader /> : null}
       <ScrollProgress />
       <SiteShell>
         <AnimatePresence mode="wait">
-          <motion.div
-            key={shellKey}
-            initial={{ opacity: 0, y: 18, filter: 'blur(10px)' }}
-            animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-            exit={{ opacity: 0, y: -18, filter: 'blur(10px)' }}
-            transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-            className={cn('min-h-screen')}
-          >
-            <Suspense fallback={<AppLoader />}>
-              <AppRoutes />
-            </Suspense>
-          </motion.div>
+          {noPageMotion ? (
+            <div key={shellKey} className={cn('min-h-screen')}>
+              <Suspense fallback={<AppLoader />}>
+                <AppRoutes />
+              </Suspense>
+            </div>
+          ) : (
+            <motion.div
+              key={shellKey}
+              initial={{ opacity: 0, y: 18, filter: 'blur(10px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              exit={{ opacity: 0, y: -18, filter: 'blur(10px)' }}
+              transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+              className={cn('min-h-screen')}
+            >
+              <Suspense fallback={<AppLoader />}>
+                <AppRoutes />
+              </Suspense>
+            </motion.div>
+          )}
         </AnimatePresence>
       </SiteShell>
     </div>
